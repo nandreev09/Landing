@@ -1,0 +1,940 @@
+.main {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+.main .hero-block .text-and-pic {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    gap: 17px;
+    position: relative;
+}
+
+.main .hero-block .text-and-pic .hero-text-content {
+    max-width: 540px;
+    width: 100%;
+    padding-top: 15px;
+    position: relative;
+}
+
+
+.main .hero-block .text-and-pic .hero-text-content .hero-text {
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.main .hero-block .text-and-pic .hero-text-content .hero-underline {
+    margin: 3px 0 0 57px;
+
+}
+
+.main .hero-block .text-and-pic .hero-text-content .hero-info {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+.main .hero-block .text-and-pic .hero-text-content .hero-text .hero-illustration {
+    position: absolute;
+    top: 0;
+    right: 13px;
+}
+
+
+.main .hero-block .text-and-pic .hero-pic img {
+    width: 100%;
+}
+
+
+.main .hero-block .form-action {
+    margin-top: 14px;
+    display: flex;
+    gap: 25px;
+}
+
+.main .hero-block .form-action .email {
+    max-width: 320px;
+    width: 100%;
+}
+
+.main .hero-block .form-action input[type="email"] {
+    height: 61px;
+    padding: 18px 14px;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(118, 117, 123, 1);
+    width: 100%;
+}
+
+.main .hero-block .form-action .button {
+    background-color: rgba(245, 250, 147, 1);
+    border-radius: 18px;
+    padding: 18px 14px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.main .hero-block .form-action .button img {
+    width: 24px;
+    height: 24px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.main .hero-block .form-action .button a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.button a:visited {
+    color: black;
+}
+
+.main .features {
+    display: flex;
+    gap: 24px;
+}
+
+.main .features .card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: 1px solid rgba(245, 250, 147, 1);
+    border-radius: 32px;
+    padding: 32px;
+    width: 100%;
+}
+
+
+.main .features .card .features-pic img {
+    width: 80px;
+    height: 80px;
+}
+
+.main .features .card.two .features-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.main .features .card.three .features-pic {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main .features .card .card-text {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.main .features .card .card-text .card-text-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.main .features .card .card-text .card-text-description {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.main .screens {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main .screens .screens-image {
+    position: relative;
+}
+
+.main .screens .screens-image .background {
+    display: flex;
+    gap: 135px;
+    align-items: flex-end;
+    padding: 0 50px 0 50px;
+}
+
+.main .screens .screens-image .background .experience {
+    color: white;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    border-radius: 24px;
+    max-width: 545px;
+    width: 100%;
+    padding-bottom: 15px;
+    max-height: 324px;
+    height: 100%;
+}
+
+.main .screens .screens-image .background .experience h3 {
+    color: rgba(170, 219, 107, 1);
+    margin: 0;
+}
+
+
+.main .screens .screens-image .background .experience .job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.main .screens .screens-image .background .experience .job-list .job .company-period {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.main .screens .screens-image .background .experience .job-list .job .company-period .company {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.main .screens .screens-image .background .experience .job-list .job .company-period .period {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #76757B;
+}
+
+.main .screens .screens-image .background .experience .job-list .job .job-link {
+    display: flex;
+    align-items: center;
+    max-height: 20px;
+    height: 100%;
+}
+
+.main .screens .screens-image .background .experience .job-list .job .job-link a {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #76757B;
+}
+
+.main .screens .screens-image .background .experience .job-list .job .position {
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.main .screens .screens-image .background .portfolio {
+    background-color: rgba(255, 175, 176, 1);
+    padding: 21px;
+    border-radius: 21px;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main .screens .screens-image .background .portfolio .portfolio-image {
+    max-width: 178px;
+}
+
+.main .screens .screens-image .background .portfolio .portfolio-image img {
+    width: 100%;
+}
+
+.main .screens .screens-image .background .portfolio .portfolio-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 220px;
+}
+
+.main .screens .screens-image .background .portfolio .portfolio-content .portfolio-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.main .screens .screens-image .background .portfolio .portfolio-content .portfolio-description {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.main .screens .screens-image .background .portfolio .portfolio-content .button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main .screens .screens-image .background .portfolio .portfolio-content .button .look {
+    width: 100%;
+    text-align: center;
+}
+
+.main .screens .screens-image .background .portfolio .portfolio-content .button a {
+    max-width: 118px;
+    background-color: rgba(255, 175, 176, 1);
+    width: 100%;
+    padding: 12px 9px;
+    border-radius: 12px;
+    border: 0.66px solid rgba(51, 51, 51, 1);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.main .screens .screens-image .profile {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    gap: 10px;
+    background-color: rgba(20, 14, 23, 1);
+    max-width: 660px;
+    width: 100%;
+    border: 2px solid rgba(51, 51, 51, 1);
+    border-radius: 24px;
+    padding: 29px 72px;
+}
+
+.main .screens .screens-image .profile .profile-photo {
+    max-width: 250px;
+    margin-right: 70px;
+}
+
+.main .screens .screens-image .profile .profile-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .screens .screens-image .profile .profile-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+    max-width: 250px;
+}
+
+.main .screens .screens-image .profile .profile-content .profile-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main .screens .screens-image .profile .profile-content .profile-text .profile-title {
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 34px;
+}
+
+.main .screens .screens-image .profile .profile-content .profile-text .profile-info {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+.main .screens .screens-image .profile .profile-content .button {
+    max-width: 106px;
+}
+
+.main .screens .screens-image .profile .profile-content .button a {
+    background-color: rgba(249, 214, 158, 1);
+    padding: 8px 6px;
+    width: 100%;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.main .screens .screens-image .profile .profile-content .button .write-me {
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 11px;
+    width: 100%;
+    text-align: center;
+}
+
+.main .screens .screens-image .profile .profile-content .button img {
+    width: 100%;
+    max-width: 10px;
+}
+
+.main .screens .screens-block {
+    border: 1px solid rgba(51, 51, 51, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px;
+    border-radius: 32px;
+    color: white;
+}
+
+.main .screens .screens-block .text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+.main .screens .screens-block .button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main .screens .screens-block .button a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 18px;
+    padding: 18px 14px;
+}
+
+.main .screens .screens-block .button a .try-for-free {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.main .tariff {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgba(245, 250, 147, 1);
+    margin: 0 0 0 24px;
+}
+
+.main .tariff .price-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.main .tariff .price-list .price-card {
+    background-color: rgba(245, 250, 147, 1);
+    padding: 32px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    position: relative;
+}
+
+.main .tariff .price-list .price-card .card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+    padding-bottom: 32px;
+}
+
+.main .tariff .price-list .price-card .card-text.premium {
+    padding-bottom: 0;
+}
+
+.main .tariff .price-list .price-card .card-text .price-card-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.main .tariff .price-list .price-card .card-text .price .price-amount {
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.main .tariff .price-list .price-card .card-text .price .price-period {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.main .tariff .price-list .price-card .card-text .price-description {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main .tariff .price-list .price-card .card-text .price-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main .tariff .price-list .price-card .card-text .price-benefits .benefit {
+    display: flex;
+    gap: 4px;
+    align-items: flex-start;
+}
+
+.main .tariff .price-list .price-card .card-text .price-benefits .benefit .text-benefit {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.main .tariff .price-list .price-card .button {
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 18px;
+    padding: 18px 14px;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
+.main .tariff .price-list .price-card .button a {
+    color: white;
+    text-decoration: none;
+}
+
+.main .tariff .price-list .price-card .tag {
+    position: absolute;
+    top: -25px;
+    right: 32px;
+    background-color: black;
+    max-width: 144px;
+    width: 100%;
+    padding: 14px;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 18px;
+    white-space: nowrap;
+}
+
+.main .tariff .price-list .price-card .tag .tag-text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main .faq {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main .faq .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main .faq .faq-list .q-and-a {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 32px;
+}
+
+.main .faq .faq-list .q-and-a.open {
+    gap: 32px;
+}
+
+.main .faq .faq-list .q-and-a .faq-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .faq .faq-list .q-and-a .faq-title img:hover {
+    cursor: pointer;
+}
+
+.main .faq .faq-list .q-and-a .faq-title.text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.main .faq .faq-list .q-and-a .faq-text {
+    color: rgba(118, 117, 123, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.main .faq .faq-list .q-and-a .faq-text p {
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+
+@media screen and (max-width:768px) {
+    .main .hero-block .text-and-pic .hero-text-content {
+        z-index: 2;
+    }
+
+    .main .hero-block .text-and-pic .hero-pic {
+        opacity: 20%;
+        position: absolute;
+        left: 284px;
+    }
+
+    .main .features {
+        flex-direction: column;
+    }
+
+    .main .screens .screens-image .background .experience {
+        padding: 13px;
+        gap: 15px;
+        border-radius: 17px;
+        max-width: 392px;
+        width: 100%;
+        padding-bottom: 4px;
+        max-height: 233px;
+        height: 100%;
+    }
+
+    .main .screens .screens-image .background .experience h3 {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 14px;
+    }
+
+    .main .screens .screens-image .background {
+        gap: 97px;
+        padding: 0 36px 0 36px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list {
+        gap: 15px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .company-period {
+        gap: 4px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .company-period .company {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .company-period .period {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .job-link {
+        max-height: 15px;
+        height: 100%;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .job-link a {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .position {
+        margin-top: 4px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .main .screens .screens-image .profile {
+        padding: 21px 52px;
+        max-width: 473px;
+    }
+
+    .main .screens .screens-image .profile .profile-photo {
+        margin-right: 50px;
+    }
+
+
+    .main .screens .screens-image .profile .profile-content {
+        gap: 19px;
+        padding-top: 20px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .profile-text .profile-title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .profile-text .profile-info {
+        font-size: 8px;
+        line-height: 9px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .button {
+        max-width: 76px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .button a {
+        padding: 6px 4px;
+        border-radius: 6px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .button img {
+        max-width: 8px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .button .write-me {
+        font-size: 6px;
+        line-height: 8px;
+    }
+
+    .main .screens .screens-image .background .portfolio {
+        padding: 15px;
+        border-radius: 15px;
+        gap: 11px;
+    }
+
+    .main .screens .screens-image .background .portfolio .portfolio-content .portfolio-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .main .screens .screens-image .background .portfolio .portfolio-content .portfolio-description {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .main .screens .screens-image .background .portfolio .portfolio-content .button a {
+        max-width: 84px;
+        width: 100%;
+        padding: 8px 6px;
+        border-radius: 8px;
+        font-size: 8px;
+        line-height: 11px;
+        gap: 4px;
+    }
+
+    .main .screens .screens-image .background .portfolio .portfolio-content .button img {
+        max-width: 10px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .main .hero-block {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+
+    .main .hero-block .text-and-pic .hero-text-content {
+        z-index: 2;
+    }
+
+    .main .hero-block .text-and-pic .hero-pic {
+        opacity: 20%;
+        position: absolute;
+        left: 77px;
+    }
+
+    .main .hero-block .text-and-pic .hero-text-content .hero-text img {
+        width: 34px;
+        height: 30px;
+    }
+
+    .main .hero-block .text-and-pic .hero-text-content .hero-underline img {
+        width: 100px;
+    }
+
+    .main .hero-block .text-and-pic .hero-text-content .hero-underline {
+        margin: 3px 0 0 0;
+
+    }
+
+    .main .hero-block .text-and-pic .hero-text-content .hero-text .hero-illustration {
+        position: absolute;
+        top: 15px;
+        right: 36px;
+    }
+
+    .main .hero-block .text-and-pic .hero-text-content .hero-text {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+
+    .main .hero-block .text-and-pic .hero-text-content .hero-info {
+        margin-top: 30px;
+    }
+
+    .main .hero-block .form-action {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .main .hero-block .form-action .button {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        max-width: 222px;
+    }
+
+    .main .screens .screens-image .background .experience {
+        padding: 6px;
+        gap: 8px;
+        border-radius: 8px;
+        max-width: 182px;
+        width: 100%;
+        padding-bottom: 1px;
+        max-height: 108px;
+        height: 100%;
+    }
+
+    .main .screens .screens-image .background .experience h3 {
+        font-size: 6px;
+        font-weight: 600;
+        line-height: 6px;
+    }
+
+    .main .screens .screens-image .background {
+        gap: 45px;
+        padding: 0 17px 0 16px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list {
+        gap: 7px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .company-period {
+        gap: 2px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .company-period .company {
+        font-size: 6px;
+        line-height: 7px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .company-period .period {
+        font-size: 4px;
+        line-height: 6px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .job-link {
+        max-height: 7px;
+        height: 100%;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .job-link a {
+        font-size: 4px;
+        line-height: 6px;
+    }
+
+    .main .screens .screens-image .background .experience .job-list .job .position {
+        margin-top: 2px;
+        font-size: 4px;
+        line-height: 6px;
+    }
+
+    .main .screens .screens-image .profile {
+        padding: 10px 24px;
+        max-width: 220px;
+    }
+
+    .main .screens .screens-image .profile .profile-photo {
+        margin-right: 23px;
+    }
+
+    .main .screens .screens-image .profile .profile-photo {
+        max-width: 60px;
+    }
+
+
+    .main .screens .screens-image .profile .profile-content {
+        gap: 10px;
+        padding-top: 9px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .profile-text .profile-title {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .profile-text .profile-info {
+        font-size: 3px;
+        line-height: 4px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .button {
+        max-width: 35px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .button a {
+        padding: 3px 2px;
+        border-radius: 3px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .button img {
+        max-width: 3px;
+    }
+
+    .main .screens .screens-image .profile .profile-content .button .write-me {
+        font-size: 3px;
+        line-height: 4px;
+    }
+
+    .main .screens .screens-image .background .portfolio {
+        max-width: 73px;
+        padding: 7px;
+        border-radius: 7px;
+        gap: 5px;
+    }
+
+    .main .screens .screens-image .background .portfolio .portfolio-content .portfolio-title {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .main .screens .screens-image .background .portfolio .portfolio-content .portfolio-description {
+        font-size: 4px;
+        line-height: 6px;
+    }
+
+    .main .screens .screens-image .background .portfolio .portfolio-content .button a {
+        max-width: 40px;
+        width: 100%;
+        padding: 4px 3px;
+        border-radius: 4px;
+        font-size: 4px;
+        line-height: 5px;
+        gap: 2px;
+    }
+
+    .main .screens .screens-image .background .portfolio .portfolio-content .button img {
+        max-width: 5px;
+    }
+
+    .main .screens .screens-image .background .portfolio .portfolio-image img {
+        width: 60px;
+    }
+
+    .main .tariff .price-list {
+        flex-wrap: wrap;
+    }
+}
